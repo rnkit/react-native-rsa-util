@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F60CC1F1CEAFA780079DA9C /* ReactNativeRSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F60CC181CEAFA360079DA9C /* ReactNativeRSAUtil.m */; };
+		3F60CC221CEAFA8A0079DA9C /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F60CC211CEAFA8A0079DA9C /* RSAUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F60CC131CEAFA360079DA9C /* libReactNativeRSAUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeRSAUtil.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F60CC161CEAFA360079DA9C /* ReactNativeRSAUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeRSAUtil.h; sourceTree = "<group>"; };
+		3F60CC181CEAFA360079DA9C /* ReactNativeRSAUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeRSAUtil.m; sourceTree = "<group>"; };
+		3F60CC201CEAFA8A0079DA9C /* RSAUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAUtil.h; sourceTree = "<group>"; };
+		3F60CC211CEAFA8A0079DA9C /* RSAUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F60CC101CEAFA360079DA9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F60CC0A1CEAFA360079DA9C = {
+			isa = PBXGroup;
+			children = (
+				3F60CC151CEAFA360079DA9C /* ReactNativeRSAUtil */,
+				3F60CC141CEAFA360079DA9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F60CC141CEAFA360079DA9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F60CC131CEAFA360079DA9C /* libReactNativeRSAUtil.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F60CC151CEAFA360079DA9C /* ReactNativeRSAUtil */ = {
+			isa = PBXGroup;
+			children = (
+				3F60CC201CEAFA8A0079DA9C /* RSAUtil.h */,
+				3F60CC211CEAFA8A0079DA9C /* RSAUtil.m */,
+				3F60CC161CEAFA360079DA9C /* ReactNativeRSAUtil.h */,
+				3F60CC181CEAFA360079DA9C /* ReactNativeRSAUtil.m */,
+			);
+			path = ReactNativeRSAUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F60CC121CEAFA360079DA9C /* ReactNativeRSAUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F60CC1C1CEAFA360079DA9C /* Build configuration list for PBXNativeTarget "ReactNativeRSAUtil" */;
+			buildPhases = (
+				3F60CC0F1CEAFA360079DA9C /* Sources */,
+				3F60CC101CEAFA360079DA9C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeRSAUtil;
+			productName = ReactNativeRSAUtil;
+			productReference = 3F60CC131CEAFA360079DA9C /* libReactNativeRSAUtil.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F60CC0B1CEAFA360079DA9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TounaApp;
+				TargetAttributes = {
+					3F60CC121CEAFA360079DA9C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F60CC0E1CEAFA360079DA9C /* Build configuration list for PBXProject "ReactNativeRSAUtil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F60CC0A1CEAFA360079DA9C;
+			productRefGroup = 3F60CC141CEAFA360079DA9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F60CC121CEAFA360079DA9C /* ReactNativeRSAUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F60CC0F1CEAFA360079DA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F60CC221CEAFA8A0079DA9C /* RSAUtil.m in Sources */,
+				3F60CC1F1CEAFA780079DA9C /* ReactNativeRSAUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F60CC1A1CEAFA360079DA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F60CC1B1CEAFA360079DA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F60CC1D1CEAFA360079DA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"${SYMROOT}",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3F60CC1E1CEAFA360079DA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"${SYMROOT}",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F60CC0E1CEAFA360079DA9C /* Build configuration list for PBXProject "ReactNativeRSAUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F60CC1A1CEAFA360079DA9C /* Debug */,
+				3F60CC1B1CEAFA360079DA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F60CC1C1CEAFA360079DA9C /* Build configuration list for PBXNativeTarget "ReactNativeRSAUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F60CC1D1CEAFA360079DA9C /* Debug */,
+				3F60CC1E1CEAFA360079DA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F60CC0B1CEAFA360079DA9C /* Project object */;
+}

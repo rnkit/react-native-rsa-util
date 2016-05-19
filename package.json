@@ -1,0 +1,15 @@
+{
+    "name": "react-native-rsa-util",
+    "version": "0.0.1",
+    "description": "rsa util for iOS and Android",
+    "keywords": ["rsa", "react-native", "android", "ios"],
+    "homepage": "https://github.com/Touna-App-Front-End/react-native-rsa-util",
+    "author": "SimMan",
+    "files": [
+        "Android/",
+        "iOS/",
+        "index.android.js",
+        "index.ios.js"
+    ],
+    "license": "MIT"
+}
