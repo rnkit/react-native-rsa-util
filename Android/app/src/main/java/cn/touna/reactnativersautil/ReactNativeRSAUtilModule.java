@@ -22,7 +22,7 @@ public class ReactNativeRSAUtilModule extends ReactContextBaseJavaModule {
 
 
     @ReactMethod
-    public void encryptStringWithPublickKey(String str, String publicKey, Promise promise) {
+    public void encryptStringWithPublicKey(String str, String publicKey, Promise promise) {
 
         try {
             String encryptString = RSAEncryptUtils.encryptByPublicKey(str, publicKey);
